@@ -1,0 +1,301 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head> 
+
+<style>
+    body
+    {
+        margin:0;
+        padding: 0;    
+    }
+    
+    .container{
+        
+    }
+    #home{
+        align-content: center;
+        align-items: center;
+        
+    }
+    .profile img{
+        height: 300px;
+        width:225px;
+        border-radius: 50%;
+    }
+    .profile{
+        text-decoration-style: solid;
+        color:#fff;
+    }
+    
+    #home,#about,#skills #contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 550px;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+        background-repeat: repeat;
+        background-size: cover;
+        color: white;
+        font-family: cursive; 
+    }
+    #About h3{
+        align-items: center;
+        
+    }
+    .About h4
+    {
+        color: #fff;
+    }
+    #skills{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        width: 1500px;
+        margin: auto;
+        padding-bottom: 67px;
+        border-radius: 25%;
+       background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    #Skills h2{
+        color:white;
+        align-items: center;
+        justify-items: center;
+        font-family: cursive;
+    }
+    .marquee{
+        height: 300px;
+        width: 100%;
+    }
+    img{
+        height: 300px;
+        border-radius: 25%;
+    }
+    @media screen and(max-width:1200px){
+        .skills{
+            width: 100%;
+        }
+    }
+    .contact-flex
+    {
+      display: flex;
+      align-items: center;
+      flex-direction: column;      
+      padding: 10px 40px 10px 40px;
+      border-radius: 9px; 
+      background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+        background-repeat: repeat;
+        background-size: cover;
+      margin-top:-20px;
+    
+        
+        }
+        ::placeholder{
+            color:greenyellow;font-family:cursive;
+            color:indigo;
+            
+        }
+        .name-1
+        {
+      border: 0px;
+      width: 25%;
+      height: 30px;
+      margin-top: 10px;
+      border-radius:9px;
+      padding-left: 10px; 
+     background-color:white;
+        
+                
+            }
+        .email1
+        {
+            border:0px;
+            width:25%;
+            height:30px;
+            margin-top:10px;
+            border-radius:9px;
+            padding-left:10px;
+            background-color:white
+        }
+        .message1
+        {
+            border:0px;
+            width:50%;
+            height:200px;
+            margin-top:10px;
+            border-radius:9px;
+            padding-left:10px;
+            background-color:white
+        }
+        .phone-1
+        {
+            border:0px;
+            width:25%;
+            height:30px;
+            margin-top:10px;
+            border-radius:9px;
+            padding-left:10px;
+            background-color:white
+            
+        }
+        .submit-button
+        {
+            border:0px;
+            margin-top:5px;
+            border-radius:4px;
+            box-shadow: 0px 0px 3px 3px  #ff6d00;
+            background-color: black;
+            color:white;
+            width: 10%;
+            align-items: center;
+        }
+        .contact-flex h2
+        {
+            color: #ff3d00;
+            font-family: cursive;
+        }
+    
+    .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: orangered;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    #linkicon
+    {
+        word-spacing: 10px;
+    }
+    
+    #skill icon{
+        word-spacing: 20px;
+    }
+
+    
+    </style>
+    
+    <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+        
+</script>
+   
+    
+<body>
+     <div class="progress">
+      <div class="indeterminate"></div>
+  </div>
+
+    <div class="container">
+     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>   
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#home">Home</a>
+  <a href="#About">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</div>
+        
+    <div id="home">
+        <div class="profile" align="center">
+        <img src="1553829751474.jpg">
+        <h2>Rohit Pandey</h2>
+        <p>Faridabad,Haryana</p> 
+            <div id = "linkicon">
+        <a href="https://www.instagram.com/_07__rohit/?hl=en"><i class="fa fa-instagram" style="font-size:36px;color: white"></i></a>
+        <a href="https://www.facebook.com/rohit.pandey.75054"><i class="fa fa-facebook-official" style="font-size:36px;color: white" aria-hidden="true"></i></a> 
+        <a href="https://github.com/Rohit439"><i class="fa fa-github-square" style="font-size:36px;color: white" aria-hidden="true"></i></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope" style="font-size:36px;color: white" aria-hidden="true"></i></a>        
+            </div>
+
+        </div>        
+        
+        </div>
+       
+        <div id="About">
+            <u><h3>About Me</h3></u>
+    <h4>Young Developer persuing B. Tech Computer Science. A computer enthusiast since a young age. Was driven towards learning how the Computer works since I first got my hands on it at School. Started exploring different Operating Systems and Programming languages since Middle School. My passion towards Computers made me chase an Engineering Degree in Computer Science where I learned new Programming languages and a deeper understanding of System architecture. Being a Student.I look at all that I have learned and all that is yet to be explored and the new Technologies waiting to be explored and built.</h4>          
+    
+    </div>        
+    <div id="skills">
+      <center><h2>Skills</h2></center>  
+        <marquee behavior="alternate">
+        <div id="skill icon">
+        <img src="c.png">
+        <img src="c++.png">
+        <img src="java.jpeg">
+        <img src="img_css.jpg">    
+         </div>
+        </marquee>
+        </div>
+        
+       <!-- <div id="Projects">
+      <center><h2>Project</h2></center> 
+        <img src="project.jpeg">
+            <h4>In this work an attempt has been made to design and fabricate an automatic shoe polishing machine to make the shoe polishing process simpler. This  project  focuses  on  automation  of  the  shoe polishing  and  shining  process  without  any  human involvement in the process. This machine uses lead screw mechanism, dc  motors for actuation, springs for gripping the shoe, Arduino UNO ATMEGA-328 microcontroller and L298 motor driver circuit. </h4>
+        </div>-->
+        
+        <div id="contact">
+        <div class="contact-flex">
+            <h2> Contact-Me</h2>
+        
+            <input  class="name-1" type="text" name="" placeholder="Name">
+            
+             <input  class="phone-1" type="text" name="" placeholder="phone number">
+            
+        
+            <input class="email1" type="email" name="" placeholder="Email">
+        
+            <textarea class="message1" id="textarea" placeholder="Message or review"></textarea>
+        
+            <input class="submit-button" type="submit" name="">
+        </div>
+        
+        </div>
+    
+    
+    </div>
+    
+    </body>
+
+
+</html>
